@@ -9,7 +9,7 @@ class Turbosms:
         auth_result = self.client.service.Auth(login, password).encode('utf8')
 
         if auth_result != "Вы успешно авторизировались":
-            raise Exception("Auth error: %s" % auth_result)
+            raise ValueError("Auth error: %s" % auth_result)
 
     def balance(self):
         balance_result = self.client.service.GetCreditBalance().encode('utf8')
@@ -17,7 +17,7 @@ class Turbosms:
         try:
             balance = float(balance_result)
         except ValueError:
-            raise Exception("Balance error: %s" % balance_result)
+            raise ValueError("Balance error: %s" % balance_result)
 
         return balance
 

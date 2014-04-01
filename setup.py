@@ -7,7 +7,7 @@ INSTALL_REQUIRES = [
 
 setup(
     name='turbosmsua',
-    version='0.1dev',
+    version='0.2dev',
     packages=['turbosmsua',],
     license='Creative Commons Attribution-Noncommercial-Share Alike license',
     long_description=open('README.md').read(),
