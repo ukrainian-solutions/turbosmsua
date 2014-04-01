@@ -11,7 +11,8 @@ $ pip install git+git://github.com/mrChex/turbosmsua.git
 ```python
 import turbosmsua
 
-# Создадим инстанс. Если неверный логин/пароль или что-то еще будет выброшен ValueError с описанием ошибки от сервиса
+# Создадим инстанс
+# Если неверный логин/пароль или что-то еще будет выброшен ValueError с описанием ошибки от сервиса
 t = turbosmsua.Turbosms(login, password)
 
 # Получение баланса. Float или ValueError
