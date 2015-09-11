@@ -1,12 +1,18 @@
 Реализация SOAP сервиса для отправки смс через сервис turbosms.ua
 ==========
 
-Для установки пакета выполните:
+Для установки пакета выполните (python 2):
 ```sh
 $ pip install git+git://github.com/ukrainian-solutions/turbosmsua.git
 ```
 
-Все. Теперь в системе доступен пакет turbosmsua.
+Если у Вас python3 - у нас есть форк https://github.com/Krokop/turbosmsua
+Ставить через пип:
+```sh
+$ pip3 install turbosmsua
+```
+
+Пулреквесты и фидбек приветствуется :)
 
 ```python
 import turbosmsua
