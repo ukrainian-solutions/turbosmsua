@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/ukrainian-solutions/turbosmsua.png?label=ready&title=Ready)](https://waffle.io/ukrainian-solutions/turbosmsua)
 Реализация SOAP сервиса для отправки смс через сервис turbosms.ua
 ==========
 
